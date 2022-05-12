@@ -17,6 +17,9 @@
       }
     },
     "image": "heroku/nodejs",
+    "engines": {
+        "yarn": "1.x"
+      },
     "buildpacks": [
       {
         "url": "heroku/nodejs"
